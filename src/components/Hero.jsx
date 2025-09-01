@@ -14,7 +14,7 @@ export default function Hero()
       <div 
       className="absolute -top-32 -left-32 w-96 h-96 bg-emerald-500/30 rounded-full blur-3xl animate-pulse"></div>
       <div 
-      className="absolute bottom-40 left-1/2 w-[300px] h-[300px] bg-indigo-500/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      className="absolute bottom-40 w-[300px] h-[300px] bg-indigo-500/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
 
       {/* Left: Profile Image */}
       <motion.div

@@ -24,8 +24,8 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-gray-950/80 backdrop-blur-md border-b border-gray-800 z-50">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <nav className="flex justify-between fixed top-0 left-0 w-full bg-gray-950/80 backdrop-blur-md border-b border-gray-800 z-50">
+      <div className="w-full gap-2 left-0 px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <h1 className="text-2xl font-bold text-white">
           My<span className="text-emerald-400">Portfolio</span>
@@ -57,7 +57,7 @@ export default function Navbar() {
 
       {/* Mobile Dropdown Menu (top se slide hoga) */}
       <div
-        className={`absolute top-full left-0 w-full bg-gray-950/95 backdrop-blur-md border-t border-gray-800 shadow-lg overflow-hidden transition-all duration-300 md:hidden ${
+        className={`absolute top-full right-0  bg-gray-950/95 backdrop-blur-md border-t border-gray-800 shadow-lg overflow-hidden transition-all duration-300 md:hidden ${
           isOpen ? "max-h-96" : "max-h-0"
         }`}
       >
