@@ -67,7 +67,7 @@ export default function Profile() {
               <FaLinkedin className="text-2xl text-emerald-400" />
             </a>
             <a
-              href="https://twitter.com/"
+              href="#"
               target="_blank"
               className="p-4 rounded-full bg-emerald-500/20 hover:bg-emerald-500/40 transition"
               >
@@ -112,9 +112,9 @@ export default function Profile() {
           </h3>
           <ul className="space-y-4">
             {[
-              { name: "React Developer Certification", link: "/certificates/react.pdf" },
-              { name: "Node.js Certification", link: "/certificates/node.pdf" },
-              { name: "DSA Mastery Certificate", link: "/certificates/dsa.pdf" },
+              { name: "React Developer Certification", link: "#home" },
+              { name: "MongoDB Toolkit", link: "https://certificatemongodb.tiiny.site/" },
+              { name: "AWS (SAA) certificate", link: "https://media.geeksforgeeks.org/courses/certificates/ada666d53ed4a2cdabd48f4cf95a7347.pdf" },
             ].map((cert, i) => (
               <li key={i} className="flex items-center gap-3">
                 <Award className="w-5 h-5 text-emerald-400" />

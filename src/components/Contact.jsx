@@ -52,14 +52,14 @@ export default function Contact() {
               <FaGithub className="text-2xl text-emerald-400" />
             </a>
             <a
-              href="https://linkedin.com/mr-jaini"
+              href="https://www.linkedin.com/in/mr-jaini/"
               target="_blank"
               className="p-4 rounded-full bg-emerald-500/20 hover:bg-emerald-500/40 transition"
             >
               <FaLinkedin className="text-2xl text-emerald-400" />
             </a>
             <a
-              href="https://twitter.com/"
+              href="#"
               target="_blank"
               className="p-4 rounded-full bg-emerald-500/20 hover:bg-emerald-500/40 transition"
             >
