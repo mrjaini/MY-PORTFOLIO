@@ -112,9 +112,9 @@ export default function Profile() {
           </h3>
           <ul className="space-y-4">
             {[
-              { name: "React Developer Certification", link: "#home" },
+              { name: "React Certificate", link: "https://media.geeksforgeeks.org/courses/certificates/57c9abc84dfff508a1f8e11b721a3cf8.pdf" },
               { name: "MongoDB Toolkit", link: "https://certificatemongodb.tiiny.site/" },
-              { name: "AWS (SAA) certificate", link: "https://media.geeksforgeeks.org/courses/certificates/ada666d53ed4a2cdabd48f4cf95a7347.pdf" },
+              { name: "AWS (SAA) Certificate", link: "https://media.geeksforgeeks.org/courses/certificates/ada666d53ed4a2cdabd48f4cf95a7347.pdf" },
             ].map((cert, i) => (
               <li key={i} className="flex items-center gap-3">
                 <Award className="w-5 h-5 text-emerald-400" />
