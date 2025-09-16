@@ -67,14 +67,14 @@ export default function Hero()
           className="flex justify-center absolute top-full mt-2 left-0 w-auto bg-black rounded-xl shadow-lg border border-gray-200 z-50"
         >
           <a
-            href="/Resume with photo.pdf"
+            href="/Resume without photo.pdf"
             target="_blank"
             className="block px-4 py-2 m-1  hover:border hover:border-emerald-400 hover:text-emerald-400 rounded-xl font-medium hover:bg-emerald-400/20 transition"
           >
             Show Resume
           </a>
           <a
-            href="/Resume with photo.pdf"
+            href="/Resume without photo.pdf"
             download
             className="block px-4 py-2 m-1 hover:border hover:border-emerald-400 hover:text-emerald-400 rounded-xl font-medium hover:bg-emerald-400/20 transition"
           >
