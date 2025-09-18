@@ -42,13 +42,13 @@ export default function About() {
             About <span className="text-emerald-400">Me</span>
           </h2>
           <p className="text-lg text-gray-300 leading-relaxed max-w-2xl">
-            I am a <span className="font-semibold text-emerald-300">Full Stack Developer </span> 
+            I am a <span className="font-semibold text-emerald-300">Web Developer </span> 
             with a strong passion for creating interactive, dynamic, and scalable web applications.  
             My focus is always on writing clean, efficient, and maintainable code.  
           </p>
 
           <p className="mt-4 text-lg text-gray-300 leading-relaxed max-w-2xl">
-            With expertise in <span className="font-semibold text-emerald-300">React, JavaScript, Node.js, and modern UI/UX design</span>, 
+            With expertise in <span className="font-semibold text-emerald-300">React, JavaScript, SQL, and modern UI/UX design</span>, 
             I strive to build products that not only work flawlessly but also deliver an outstanding user experience.  
           </p>
 
@@ -58,7 +58,7 @@ export default function About() {
 
           {/* Skills Badges */}
           <div className="mt-6 flex flex-wrap gap-3 justify-center md:justify-start">
-            {["React", "JavaScript", "Node.js", "TailwindCSS", "MongoDB", "Git"].map((skill) => (
+            {["React", "JavaScript", "SQL", "TailwindCSS", "MongoDB", "Git"].map((skill) => (
               <span
                 key={skill}
                 className="px-4 py-2 bg-emerald-500/10 text-emerald-300 rounded-full text-sm font-medium shadow-sm hover:bg-emerald-500/20 transition"

@@ -107,7 +107,7 @@ export default function Profile() {
           </div>
 
           {/* Certificates */}
-          <h3 className="text-2xl font-semibold mb-6 text-emerald-400">
+          <h3 className="text-2xl font-semibold mb-6 text-white">
             Certificates
           </h3>
           <ul className="space-y-4">
@@ -115,14 +115,17 @@ export default function Profile() {
               { name: "React Certificate", link: "https://media.geeksforgeeks.org/courses/certificates/57c9abc84dfff508a1f8e11b721a3cf8.pdf" },
               { name: "MongoDB Toolkit", link: "https://certificatemongodb.tiiny.site/" },
               { name: "AWS (SAA) Certificate", link: "https://media.geeksforgeeks.org/courses/certificates/ada666d53ed4a2cdabd48f4cf95a7347.pdf" },
+              { name: "SQL ADVANCED", link: "https://www.hackerrank.com/certificates/iframe/ec5480b83126" },
+              { name: "Python Certificate", link: "https://media.geeksforgeeks.org/courses/certificates/de4fec4e5d9715bca354df5f943252c6.pdf" },
+              
             ].map((cert, i) => (
-              <li key={i} className="flex items-center gap-3">
+              <li key={i} className="flex items-center" >
                 <Award className="w-5 h-5 text-emerald-400" />
                 <a
                   href={cert.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-emerald-300 hover:underline"
+                  className="items-center text-emerald-400 hover:font-bold"
                 >
                   {cert.name}
                 </a>
