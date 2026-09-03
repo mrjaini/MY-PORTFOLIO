@@ -24,7 +24,7 @@ export default function Hero()
         className="flex-shrink-0 mb-8 md:mb-0 relative z-10"
       >
         <img
-          src="/Profile.jpg"
+          src="/Profile Photo.png"
           alt="Profile"
           className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-full shadow-xl border-4 border-emerald-400 backdrop-blur-lg"
         />
