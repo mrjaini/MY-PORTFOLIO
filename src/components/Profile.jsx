@@ -34,7 +34,7 @@ export default function Profile() {
           className="flex flex-col items-center md:items-start text-center md:text-left"
         >
           <img
-            src="/Profile.jpg"
+            src="/Profile Photo.png"
             alt="Profile"
             className="w-40 h-40 md:w-40 md:h-40 object-cover rounded-full shadow-xl border-4 border-emerald-400 backdrop-blur-lg"
           />
